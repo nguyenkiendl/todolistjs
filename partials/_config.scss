@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+$primary-color: #f44336;
+$primary-color-variant: #6745cf;
+$white-color: #fff;
+$light-color: rgba($white-color, 0.7);
+$black-color: #000;
+$dark-color: rgba($black-color, 0.7);
+$border-color: rgba($black-color, 0.085);
+
+$container-lg: 70%;
+$container-md: 85%;

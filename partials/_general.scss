@@ -1,0 +1,37 @@
+body{
+    background: $primary-color-variant;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.container{
+    width: $container-lg;
+    margin: 0 auto;
+
+    h1{
+        width: fit-content;
+        margin: 0 auto;
+        padding: 2rem 0;
+        color: $white-color;
+    }
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: $white-color;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: $primary-color-variant;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: $light-color;
+}
